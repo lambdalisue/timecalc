@@ -1,0 +1,9 @@
+{
+  "tasks": {
+    "build": "deno run -qA https://deno.land/x/packup@v0.2.4/cli.ts build index.html",
+    "serve": "deno run -qA https://deno.land/x/packup@v0.2.4/cli.ts serve index.html"
+  },
+  "compilerOptions": {
+    "lib": ["esnext", "dom"]
+  }
+}

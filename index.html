@@ -1,0 +1,43 @@
+<html>
+  <style>
+    #wrapper {
+      width: 80%;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    #expr {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 1em;
+      font-size: 1.5em;
+      box-sizing: border-box;
+    }
+
+    #result {
+      width: 100%;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 1em;
+      font-size: 1.5em;
+      box-sizing: border-box;
+    }
+  </style>
+  <body>
+    <script src="./main.ts"></script>
+    <div id="wrapper">
+      <h1>Timecalc</h1>
+      <p>
+        A service that calculates time in 24-hour notation; calculations beyond
+        24 hours are also possible.
+      </p>
+      <input
+        id="expr"
+        placeholder="Input time calc expression (e.g. 28:32 - 12:55)"
+      />
+      <h3>Result</h3>
+      <pre id="result"></pre>
+    </div>
+  </body>
+</html>

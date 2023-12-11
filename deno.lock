@@ -1,0 +1,9 @@
+{
+  "version": "3",
+  "remote": {
+    "https://deno.land/x/unknownutil@v3.11.0/inspect.ts": "33e61bdfed94cd586d66600813b528fa93046a2802d8144277b92f0fa5e5f10e",
+    "https://deno.land/x/unknownutil@v3.11.0/is.ts": "01244c8e3d907c4761c40b580ff5f5a2f5b051c2ef5ae6ff8b76602ed681fd74",
+    "https://deno.land/x/unknownutil@v3.11.0/mod.ts": "50f0bdb70664c65b2954d4b9bb0f95f9bb4c77c4469331fda2475a4ffbb51a15",
+    "https://deno.land/x/unknownutil@v3.11.0/util.ts": "5c9b52ef699e569ccec9d4c33148545bf5328c6a5e2f6f56f651ce6bdd44eb1e"
+  }
+}
